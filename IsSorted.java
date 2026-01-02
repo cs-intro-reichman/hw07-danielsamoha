@@ -2,7 +2,8 @@ public class IsSorted {
 
     // Public function: called by the user
     public static boolean isSorted(int[] a) {
-        return isSorted(a, 0);
+        return isSorted(a, a.length);
+
     }
 
     // Helper recursive function
